@@ -15,6 +15,8 @@ public class CardHand implements CardContainer, Iterable<Card> {
         return hand.size();
     }
 
+    //hei
+
     public Card getCard(int n) {
         if (n < 0 || n >= hand.size()) {
             throw new IllegalArgumentException(n + "er ikke gyldig");
